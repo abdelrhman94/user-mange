@@ -7,7 +7,9 @@ const DashBoard = () => {
   return (
     <div style={{ display: 'flex' }}>
       <Sidebar />
-      <main style={{ marginLeft: '100px' }}>
+      <main
+        style={{ marginLeft: '100px', padding: '20px', width: 'calc(100%)' }}
+      >
         <Switch>
           <Route path="/" component={UsersListPage}></Route>
         </Switch>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Image } from 'semantic-ui-react';
 
 const UserCard = ({ avatar, firstName, lastName, email }) => (
-  <Card>
+  <Card style={{ width: '100%' }}>
     <Card.Content>
       <Image floated="left" size="mini" src={avatar} />
       <Card.Header>{firstName + ' ' + lastName}</Card.Header>

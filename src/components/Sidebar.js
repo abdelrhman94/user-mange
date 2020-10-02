@@ -14,7 +14,6 @@ const SidebarComponent = ({
     inverted
     vertical
     visible={visible}
-    width="200px"
   >
     <Menu.Item as="a">
       <Icon name="users" />
