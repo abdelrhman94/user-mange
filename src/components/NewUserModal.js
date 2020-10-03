@@ -53,6 +53,9 @@ const NewUserModal = ({
               }
             />
           </Form.Field>
+          <Form.Field style={{ display: 'flex', justifyContent: 'center' }}>
+            <Button content="Choose Avatar" labelPosition="left" icon="image" />
+          </Form.Field>
           <Form.Field>
             <label>email</label>
             <input
@@ -69,6 +72,7 @@ const NewUserModal = ({
               onChange={(e) => setState({ ...state, job: e.target.value })}
             />
           </Form.Field>
+
           <Form.Field>
             <label>Address: street address</label>
             <input

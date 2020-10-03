@@ -44,7 +44,7 @@ const UsersListPage = () => {
             setIsNewUserModalOpen(true);
           }}
         >
-          add new user
+          Add new user
         </Button>
       </div>
       <List relaxed>
